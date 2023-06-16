@@ -1,0 +1,70 @@
+@media screen and  (max-width: 10000px ){
+    *{margin: 0px;
+    
+    }
+    
+    
+    
+    
+    button{
+    height: 300px; 
+    }
+    #hoger{width: 100px;
+    background-color: rgb(171, 7, 40);
+    
+    text-align: center;
+    margin-left: 50px;
+    font-size: 20px;
+    }
+    
+    #lager{width: 100px;
+    background-color: rgb(11, 167, 11);
+    text-align: center;
+    font-size: 20px;
+    }
+    
+    body{
+      background: linear-gradient(to right,rgb(0, 0, 134),rgb(137, 3, 204));
+    
+    }
+    
+    h1{color: linear-gradient(to leftrgb(0, 0, 134),rgb(137, 3, 204));
+    text-align: center;
+    font-size: 80px;
+    }
+    
+    
+    h3{color: white;
+      font-size: 40px;
+    }
+    #computer{float: right;
+    margin-right: 100px;
+    font-style: italic;
+    }
+    #player{float: left;
+    margin-left: 100px;
+    border-radius: 10px;
+    font-style: italic;
+    }
+    #img1{height: 100px;
+    float: left;
+    margin: 10px;
+    margin-left: 40px;
+    }
+    #img2{height: 100px;
+    float: left;
+    padding-right: 50px;
+    margin: 10px;
+    }
+    #img3{height: 100px;
+    float: right;
+    margin: 10px;
+    margin-right: 40px;
+    }
+    #img4{height: 100px;
+    float:right;
+    margin: 10px;
+    
+    }
+    
+    }
