@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sudoku.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <h1>.</h1>
+    <div class="board">
+        <input type="number" value="3" readonly name="" id="" class="b-top b-left"> 
+        <input type="number" value="4" readonly name="" id="" class="b-top">
+        <input type="number" value="" name="" id="" class="b-top b-right blue">
+        <input type="number" value="8" readonly name="" id="" class="b-top b-left">
+        <input type="number" value="2" readonly name="" id="" class="b-top">
+        <input type="number" value="6" readonly name="" id="" class="b-top b-right">
+        <input type="number" value="" name="" id="" class="b-top b-left">
+        <input type="number" value="7" readonly name="" id="" class="b-top">
+        <input type="number" value="1" readonly name="" id="" class="b-top b-right">
+        <input type="number" value="" name="" id="" class="b-left">
+        <input type="number" value="" name="" id="" class="">
+        <input type="number" value="8" readonly name="" id="" class="b-right">
+        <input type="number" value="" name="" id="" class="b-left">
+        <input type="number" value="" name="" id="" class="">
+        <input type="number" value="" name="" id="" class="b-right">
+        <input type="number" value="9" readonly name="" id="" class="b-left">
+        <input type="number" value="" name="" id="" class="">
+        <input type="number" value="" name="" id="" class="b-right yellow">
+        <input type="number" value="7" readonly name="" id="" class="b-bottom b-left"> 
+        <input type="number" value="6" readonly name="" id="" class="b-bottom">
+        <input type="number" value="" name="" id="" class="b-bottom b-right">
+        <input type="number" value="" name="" id="" class="b-left">
+        <input type="number" value="9" readonly name="" id="" class="b-bottom">
+        <input type="number" value="" name="" id="" class="b-bottom b-right">
+        <input type="number" value="" name="" id="" class="b-bottom b-left">
+        <input type="number" value="4" readonly name="" id="" class="b-bottom">
+        <input type="number" value="3" readonly name="" id="" class="b-bottom b-right">
+        <input type="number" value="" name="" id="" class="b-top b-left">
+        <input type="number" value="8" readonly name="" id="" class="b-top">
+        <input type="number" value="" name="" id="" class="b-top b-right">
+        <input type="number" value="1" readonly name="" id="" class="b-top b-left">
+        <input type="number" value="" name="" id="" class="b-top">
+        <input type="number" value="2" readonly name="" id="" class="b-top b-right">
+        <input type="number" value="" name="" id="" class="b-top b-left">
+        <input type="number" value="3" readonly name="" id="" class="b-top">
+        <input type="number" value="" name="" id="" class="b-top b-right">
+        <input type="number" value="" name="" id="" class="b-left">
+        <input type="number" value="3" readonly name="" id="" class="">
+        <input type="number" value="" name="" id="" class="b-right">
+        <input type="number" value="" name="" id="" class="b-left">
+        <input type="number" value="" name="" id="" class="">
+        <input type="number" value="" name="" id="" class="b-right green">
+        <input type="number" value="" name="" id="" class="b-left">
+        <input type="number" value="9" readonly name="" id="" class="">
+        <input type="number" value="" name="" id="" class="b-right">
+        <input type="number" value="" name="" id="" class="b-bottom b-left">
+        <input type="number" value="7" readonly name="" id="" class="b-bottom">
+        <input type="number" value="" name="" id="" class="b-bottom b-right">
+        <input type="number" value="9" readonly name="" id="" class="b-bottom b-left">
+        <input type="number" value="" name="" id="" class="b-bottom">
+        <input type="number" value="4" readonly name="" id="" class="b-bottom b-right">
+        <input type="number" value="" name="" id="" class="b-bottom b-left">
+        <input type="number" value="1" readonly name="" id="" class="b-bottom">
+        <input type="number" value="" name="" id="" class="b-bottom b-right">
+        <input type="number" value="8" readonly name="" id="" class="b-top b-left">
+        <input type="number" value="2" readonly name="" id="" class="b-top">
+        <input type="number" value="" name="" id="" class="b-top b-right">
+        <input type="number" value="" name="" id="" class="b-top b-left">
+        <input type="number" value="4" readonly name="" id="" class="b-top">
+        <input type="number" value="" name="" id="" class="b-top b-right">
+        <input type="number" value="" name="" id="" class="b-top b-left red">
+        <input type="number" value="5" readonly name="" id="" class="b-top">
+        <input type="number" value="9" readonly name="" id="" class="b-top b-right">
+        <input type="number" value="" name="" id="" class="b-left">
+        <input type="number" value="" name="" id="" class="">
+        <input type="number" value="7" readonly name="" id="" class="b-right">
+        <input type="number" value="" name="" id="" class="b-left">
+        <input type="number" value="" name="" id="" class="">
+        <input type="number" value="" name="" id="" class="b-right">
+        <input type="number" value="3" readonly name="" id="" class="b-left">
+        <input type="number" value="" name="" id="" class="">
+        <input type="number" value="" name="" id="" class="b-right">
+        <input type="number" value="4" readonly name="" id="" class="b-bottom b-left">
+        <input type="number" value="1" readonly name="" id="" class="b-bottom ">
+        <input type="number" value=""  name="" id="" class="b-bottom b-right">
+        <input type="number" value="3" readonly name="" id="" class="b-bottom b-left">
+        <input type="number" value="8" readonly name="" id="" class="b-bottom ">
+        <input type="number" value="9" readonly name="" id="" class="b-bottom b-right">
+        <input type="number" value=""  name="" id="" class="b-bottom b-left">
+        <input type="number" value="6" readonly name="" id="" class="b-bottom">
+        <input type="number" value="2" readonly name="" id="" class="b-bottom b-right">
+    </div>
+<button class="check-button" id="btn1">Controleer</button>
+<a href="/Room 1/index.html">
+    <button id="btn2">Continue</button>
+</a>
+
+
+
+</body>
+
+</html>

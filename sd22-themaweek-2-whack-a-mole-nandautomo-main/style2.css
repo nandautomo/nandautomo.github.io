@@ -1,0 +1,80 @@
+html {
+    width: auto;
+    height: auto;
+}
+
+.tile {
+    background-color: #007a06 ;
+} 
+
+.active {
+    background-size: contain;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6YURZc0hfNF2EFYdnezNtSYvJF1gk_cVvg&usqp=CAU);
+    background-color: #007375;
+}
+
+header {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.score {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.475);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.wrapper {
+    margin-left: 465px;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(5, 100px);
+    grid-template-columns: repeat(5, 100px);
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  
+  body {
+    width: 100%;
+    height:100%;
+      background: linear-gradient(-45deg, #000000, #ff0000, #000000, #ff0000);
+      background-size: 400% 400%;
+      animation: gradient 3s ease infinite;
+  }
+
+.switch {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.475);
+}
+
+  .madeby {
+    color: red;
+    text-align: center;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+  footer {   
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(255, 255, 255);
+  }

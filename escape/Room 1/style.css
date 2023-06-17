@@ -1,0 +1,85 @@
+html { 
+    background: url(1oudwoonkamer.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.button1 {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+
+.button1 {
+    top:63%;
+    left:43%;
+    width:50px;
+    height:40px;
+    position: absolute;
+    z-index: 2; 
+    }
+
+.button1:hover {
+    cursor: pointer;
+}
+
+.button2 {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+.button2 {
+    top:1%;
+    left:42.5%;
+    width:64px;
+    height:40px;
+    position: absolute;
+    z-index: 2; 
+    }
+
+.button2:hover {
+    cursor: pointer;
+}
+
+.button3 {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+.button3 {
+    top:68%;
+    left:82%;
+    width:20px;
+    height:40px;
+    position: absolute;
+    z-index: 2; 
+    }
+
+.button3:hover {
+    cursor: pointer;
+}
+
+
+.button4 {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+.button4 {
+    top:40%;
+    left:55%;
+    width:170px;
+    height:100px;
+    position: absolute;
+    z-index: 2; 
+    }
+
+.button4:hover {
+    cursor: pointer;
+}

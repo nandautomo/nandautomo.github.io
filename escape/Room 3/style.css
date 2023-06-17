@@ -1,0 +1,26 @@
+html { 
+    background: url(attic.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.button6 {
+    background: transparent;
+    border: none !important;
+    font-size:0;
+  }
+
+.button6 {
+    top:65%;
+    left:70%;
+    width: 125px;
+    height: 85px;
+    position: absolute;
+    z-index: 2; 
+    }
+
+.button6:hover {
+    cursor: pointer;
+}

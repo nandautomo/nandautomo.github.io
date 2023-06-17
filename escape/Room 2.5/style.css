@@ -1,0 +1,33 @@
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+}
+
+
+.start {
+    top:83%;
+    left:45%;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    z-index: 2; 
+    }
+
+.start:hover {
+    cursor: pointer;
+}
+
+.continue {
+    top:83%;
+    left:55%;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    z-index: 2; 
+    }
+
+.continue:hover {
+    cursor: pointer;
+}

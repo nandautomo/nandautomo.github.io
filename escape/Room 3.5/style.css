@@ -1,0 +1,30 @@
+img {
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.start {
+    top:83%;
+    left:45%;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    z-index: 2; 
+    }
+
+.start:hover {
+    cursor: pointer;
+}
+
+.continue {
+    top:83%;
+    left:52%;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    z-index: 2; 
+    }
+
+.continue:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+html {
+    width: auto;
+    height: auto;
+}
+
+.tile {
+    background-color: #050089 ;
+} 
+
+.active {
+    background-size: contain;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7EYmZnIkpoSTn1UXNm1Hge0Nw-luzEHfxng&usqp=CAU);
+    background-color: #007375;
+}
+
+header {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.score {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.475);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.wrapper {
+    margin-left: 465px;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(5, 100px);
+    grid-template-columns: repeat(5, 100px);
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+  
+  body {
+    width: 100%;
+    height:100%;
+      background: linear-gradient(-45deg, #ffff00, #ffffff, #ffff00, #ffffff);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+  }
+
+  .switch {
+    width: 200px; 
+    background-color: #ffffff;
+  }
+
+  .madeby {
+    color: #050089;
+    text-align: center;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      } 
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+  footer {   
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(255, 255, 255);
+  }
+
+
+/* 
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl2jyMPCHMFPdxNbFlfgTSg0oroPLuBi02Yw&usqp=CAU
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfiEa1JiOr_BcURHGWqlJ1daKkvOIv6coeUg&usqp=CAU
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0hXP2tkGWwdErqZ7v5j_RIRGSp7MZ8SbUJQ&usqp=CAU
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2aETHlUbsK-sztWysyJ-SbT1AcpbtbJYwyQ&usqp=CAU
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6YURZc0hfNF2EFYdnezNtSYvJF1gk_cVvg&usqp=CAU
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1LaU5N8xTo3dOK5Rj9cG-eCWfQV8lxumD5g&usqp=CAU
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHKx8QqyRkJYI2-IjION2oPktCiil3vUk56Q&usqp=CAU
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP3qPAjRlbgjEw942IcADKJEVFrbNkHQlM5Q&usqp=CAU
+*/ 
+

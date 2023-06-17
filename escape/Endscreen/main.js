@@ -1,0 +1,1 @@
+alert("With the 2 digit code you go to the municipality, they ask for your name and they give you a chest with a lock. You enter the 2 numbers in the lock. The chest opens and it contains your grandfather's diary and the diary contains more adventures.")
